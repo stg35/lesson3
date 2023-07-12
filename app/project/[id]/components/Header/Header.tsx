@@ -1,6 +1,6 @@
-import { PropsWithChildren } from 'react';
+'use client';
 import { HeaderProps } from './Header.props';
 
-export const Header = ({ children, ...props }: PropsWithChildren<HeaderProps>): JSX.Element => {
-	return <h1 {...props}>{children}</h1>;
+export const Header = ({ nameRus, ...props }: HeaderProps): JSX.Element => {
+	return <div {...props}>{nameRus}</div>;
 };

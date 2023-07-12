@@ -19,5 +19,5 @@ export default async function ProjectPage({
 	if (!data) {
 		notFound();
 	}
-	return <Header>{data.nameRus}</Header>;
+	return <Header nameRus={data.nameRus} />;
 }
