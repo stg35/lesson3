@@ -7,4 +7,16 @@ module.exports = {
 		});
 		return config;
 	},
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 's3.hse.ru',
+			},
+			{
+				protocol: 'https',
+				hostname: 'www.gravatar.com',
+			},
+		],
+	},
 };

@@ -1,0 +1,19 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 60px 1fr;
+	gap: 16px;
+	padding: 16px;
+}
+
+.image {
+	border-radius: 60px;
+}
+
+.name {
+	font-size: 20px;
+	padding-bottom: 4px;
+}
+
+.role {
+	color: #808080;
+}
